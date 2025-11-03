@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/cloudwego/eino-ext/components/model/ollama"
 	"github.com/cloudwego/eino/schema"
+	"github.com/eino-contrib/ollama/api"
 	"log"
 )
 
@@ -12,8 +13,9 @@ func main() {
 	modelName := "qwen3-vl:32b"
 
 	chatModel, err := ollama.NewChatModel(ctx, &ollama.ChatModelConfig{
-		BaseURL: "http://localhost:11434",
-		Model:   modelName,
+		BaseURL:  "http://localhost:11434",
+		Model:    modelName,
+		Thinking: &api.ThinkValue{Value: false},
 	})
 	if err != nil {
 		log.Printf("NewChatModel failed, err=%v\n", err)

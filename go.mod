@@ -3,7 +3,7 @@ module github.com/rigoncs/ArchiAgent
 go 1.25.0
 
 require (
-	github.com/cloudwego/eino v0.5.7
+	github.com/cloudwego/eino v0.5.11
 	github.com/cloudwego/eino-ext/components/model/ollama v0.1.5
 )
 
@@ -15,7 +15,7 @@ require (
 	github.com/bytedance/sonic/loader v0.3.0 // indirect
 	github.com/cloudwego/base64x v0.1.6 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/eino-contrib/jsonschema v1.0.1 // indirect
+	github.com/eino-contrib/jsonschema v1.0.2 // indirect
 	github.com/eino-contrib/ollama v0.1.0 // indirect
 	github.com/getkin/kin-openapi v0.118.0 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
