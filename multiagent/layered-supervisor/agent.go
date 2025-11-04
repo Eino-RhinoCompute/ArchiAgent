@@ -9,8 +9,8 @@ import (
 	"github.com/cloudwego/eino/components/tool"
 	"github.com/cloudwego/eino/compose"
 
-	"github.com/cloudwego/eino-examples/adk/common/model"
 	"github.com/cloudwego/eino-examples/flow/agent/multiagent/plan_execute/tools"
+	"github.com/rigoncs/ArchiAgent/common/model"
 )
 
 func buildSearchAgent(ctx context.Context) (adk.Agent, error) {
