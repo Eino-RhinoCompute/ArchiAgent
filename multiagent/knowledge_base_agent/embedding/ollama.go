@@ -6,10 +6,14 @@ import (
 	"github.com/cloudwego/eino-ext/components/embedding/ollama"
 )
 
+const (
+	embedderModel = "nomic-embed-text:v1.5"
+)
+
 func main() {
 	ctx := context.Background()
 	embedder, err := ollama.NewEmbedder(ctx, &ollama.EmbeddingConfig{
-		Model:   "nomic-embed-text:v1.5",
+		Model:   embedderModel,
 		BaseURL: "http://127.0.0.1:11434",
 	})
 	if err != nil {

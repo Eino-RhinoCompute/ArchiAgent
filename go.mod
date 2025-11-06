@@ -5,8 +5,13 @@ go 1.25.0
 require (
 	github.com/cloudwego/eino v0.5.11
 	github.com/cloudwego/eino-examples v0.0.0-20251030062102-28d7c0a57807
+	github.com/cloudwego/eino-ext/components/document/loader/file v0.0.0-20251105133430-149843ccfe5d
+	github.com/cloudwego/eino-ext/components/document/transformer/splitter/recursive v0.0.0-20251105133430-149843ccfe5d
+	github.com/cloudwego/eino-ext/components/embedding/ollama v0.0.0-20251105133430-149843ccfe5d
+	github.com/cloudwego/eino-ext/components/indexer/redis v0.0.0-20251105133430-149843ccfe5d
 	github.com/cloudwego/eino-ext/components/model/ollama v0.1.5
 	github.com/eino-contrib/ollama v0.1.0
+	github.com/redis/go-redis/v9 v9.16.0
 )
 
 require (
@@ -19,9 +24,6 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cloudwego/base64x v0.1.6 // indirect
 	github.com/cloudwego/eino-ext/callbacks/cozeloop v0.1.4 // indirect
-	github.com/cloudwego/eino-ext/components/document/loader/file v0.0.0-20251105133430-149843ccfe5d // indirect
-	github.com/cloudwego/eino-ext/components/embedding/ollama v0.0.0-20251105133430-149843ccfe5d // indirect
-	github.com/cloudwego/eino-ext/components/indexer/redis v0.0.0-20251105133430-149843ccfe5d // indirect
 	github.com/coze-dev/cozeloop-go v0.1.11 // indirect
 	github.com/coze-dev/cozeloop-go/spec v0.1.4 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
@@ -47,7 +49,6 @@ require (
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/perimeterx/marshmallow v1.1.5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/redis/go-redis/v9 v9.16.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/slongfield/pyfmt v0.0.0-20220222012616-ea85ff4c361f // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
