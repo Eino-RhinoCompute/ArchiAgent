@@ -16,10 +16,15 @@ require (
 	github.com/bytedance/gopkg v0.1.3 // indirect
 	github.com/bytedance/sonic v1.14.2 // indirect
 	github.com/bytedance/sonic/loader v0.4.0 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cloudwego/base64x v0.1.6 // indirect
 	github.com/cloudwego/eino-ext/callbacks/cozeloop v0.1.4 // indirect
+	github.com/cloudwego/eino-ext/components/document/loader/file v0.0.0-20251105133430-149843ccfe5d // indirect
+	github.com/cloudwego/eino-ext/components/embedding/ollama v0.0.0-20251105133430-149843ccfe5d // indirect
+	github.com/cloudwego/eino-ext/components/indexer/redis v0.0.0-20251105133430-149843ccfe5d // indirect
 	github.com/coze-dev/cozeloop-go v0.1.11 // indirect
 	github.com/coze-dev/cozeloop-go/spec v0.1.4 // indirect
+	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/eino-contrib/jsonschema v1.0.2 // indirect
 	github.com/getkin/kin-openapi v0.118.0 // indirect
@@ -38,9 +43,11 @@ require (
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/nikolalohinski/gonja v1.5.3 // indirect
 	github.com/nikolalohinski/gonja/v2 v2.3.1 // indirect
+	github.com/ollama/ollama v0.11.4 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/perimeterx/marshmallow v1.1.5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/redis/go-redis/v9 v9.16.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/slongfield/pyfmt v0.0.0-20220222012616-ea85ff4c361f // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
