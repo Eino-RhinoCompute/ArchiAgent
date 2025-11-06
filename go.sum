@@ -44,6 +44,8 @@ github.com/cloudwego/eino-ext/components/indexer/redis v0.0.0-20251105133430-149
 github.com/cloudwego/eino-ext/components/indexer/redis v0.0.0-20251105133430-149843ccfe5d/go.mod h1:h5ltS4Jds7aYhQzNEgkdUg00EQS52C+TWmzNJFAkvt4=
 github.com/cloudwego/eino-ext/components/model/ollama v0.1.5 h1:afBsBFwk8cRT3RT5LOW8jTdV4uZipCQpNQuBwM1zWL4=
 github.com/cloudwego/eino-ext/components/model/ollama v0.1.5/go.mod h1:agEXRRhFGNcTjaryXKNYxI58niFnVws5ipOz5QkScIc=
+github.com/cloudwego/eino-ext/components/retriever/redis v0.0.0-20251105133430-149843ccfe5d h1:zphm+Jb7XiiS6P12YTPG+zZMf3FZFjd7olzwFwqTY0A=
+github.com/cloudwego/eino-ext/components/retriever/redis v0.0.0-20251105133430-149843ccfe5d/go.mod h1:V7wMikEuGiFIBFzRgzW/xcfLZGRrZ5+M2lX+qtLBexs=
 github.com/coze-dev/cozeloop-go v0.1.11 h1:NzdBKK3klhRgnPEH/PCjtP21+cRuz6qZlKPmJC7bkiM=
 github.com/coze-dev/cozeloop-go v0.1.11/go.mod h1:GDF+MpqsUsq4oKy+L1FTd6Giy2cAmr/xXl9rOnub39A=
 github.com/coze-dev/cozeloop-go/spec v0.1.4 h1:6yhjFQ39yn9VkZ68QG2W5WjzICl6GgwVsXmDmn75ySg=

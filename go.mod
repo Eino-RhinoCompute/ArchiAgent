@@ -24,6 +24,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cloudwego/base64x v0.1.6 // indirect
 	github.com/cloudwego/eino-ext/callbacks/cozeloop v0.1.4 // indirect
+	github.com/cloudwego/eino-ext/components/retriever/redis v0.0.0-20251105133430-149843ccfe5d // indirect
 	github.com/coze-dev/cozeloop-go v0.1.11 // indirect
 	github.com/coze-dev/cozeloop-go/spec v0.1.4 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
